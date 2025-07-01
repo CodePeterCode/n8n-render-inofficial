@@ -33,13 +33,13 @@ services:
       - key: DB_POSTGRESDB_SCHEMA
         value: public
       - key: WEBHOOK_URL
-        value: https://your-n8n-app.onrender.com/
+        value: https://n8n-render-inofficial.onrender.com/
       - key: N8N_ENCRYPTION_KEY
-        value: YOUR_ENCRYPTION_KEY_HERE
+        value: MeApokH5Tas6T1UmYcriqD4/gPYzLt8TJ1KXfL8LHCqs3Wa7He4Vq81GCxJTvtBH
       - key: GENERIC_TIMEZONE
-        value: America/Sao_Paulo
+        value: Europe/Stockholm
       - key: TZ
-        value: America/Sao_Paulo
+        value: Europe/Stockholm
       - key: N8N_LOG_LEVEL
         value: info
       - key: EXECUTIONS_DATA_PRUNE
